@@ -3,6 +3,7 @@ pluginManagement {
         google()
         mavenCentral()
         maven { setUrl("https://maven.appspector.com/artifactory/android-sdk") }
+        maven { setUrl ("https://jitpack.io") }
         gradlePluginPortal()
     }
 }
@@ -11,6 +12,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         maven { setUrl("https://maven.appspector.com/artifactory/android-sdk") }
+        maven { setUrl ("https://jitpack.io") }
         mavenCentral()
     }
 }
